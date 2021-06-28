@@ -11,7 +11,7 @@
 
 
 ## Getting started
-- [Installing on Ubuntu](https://github.com/ethz-asl/voxblox_gsm/wiki/Installation-on-Ubuntu)
+- [Installing on Ubuntu](https://github.com/againxx/voxblox-plusplus/wiki/Installation-on-Ubuntu)
 - [Sample Datasets](https://github.com/ethz-asl/voxblox-plusplus/wiki/Sample-Datasets)
 - [Basic usage](https://github.com/ethz-asl/voxblox-plusplus/wiki/Basic-usage)
 - [The Voxblox++ node](https://github.com/ethz-asl/voxblox-plusplus/wiki/The-voxblox-plusplus-node)
