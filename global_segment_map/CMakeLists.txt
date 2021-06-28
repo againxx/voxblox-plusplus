@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(global_segment_map)
+cmake_minimum_required(VERSION 3.0)
+project(global_segment_map VERSION 0.0.1 LANGUAGES CXX)
 
 add_definitions(-std=c++14)
 if (NOT "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
@@ -22,6 +22,15 @@ cs_add_library(${PROJECT_NAME}
   src/meshing/semantic_color_map.cc
   src/segment.cc
   src/utils/visualizer.cc
+)
+
+target_include_directories(${PROJECT_NAME}
+  PUBLIC
+    ${PCL_INCLUDE_DIRS}
+)
+
+target_link_libraries(${PROJECT_NAME}
+  ${PCL_VISUALIZATION_LIBRARIES}
 )
 
 cs_install()
