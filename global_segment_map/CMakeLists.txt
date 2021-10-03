@@ -30,7 +30,7 @@ target_include_directories(${PROJECT_NAME}
 )
 
 target_link_libraries(${PROJECT_NAME}
-  ${PCL_VISUALIZATION_LIBRARIES}
+  ${PCL_LIBRARIES}
 )
 
 cs_install()

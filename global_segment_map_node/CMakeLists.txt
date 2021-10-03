@@ -43,7 +43,7 @@ endif()
 cs_add_library(${PROJECT_NAME}_library
   src/controller.cpp
 )
-target_link_libraries(${PROJECT_NAME}_library ${catkin_LIBRARIES} ${approxmvbb_catkin_LIBRARIES})
+target_link_libraries(${PROJECT_NAME}_library ${catkin_LIBRARIES} ${approxmvbb_catkin_LIBRARIES} ${PCL_LIBRARIES})
 
 cs_add_executable(${PROJECT_NAME}
   src/node.cpp
